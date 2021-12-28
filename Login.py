@@ -77,7 +77,7 @@ class Login(object):
 
         while True:
             menuSelect = input(SELECT_MSG)
-            if menuSelect not in ("1", "2"):
+            if menuSelect not in (LOG_IN, SIGN_IN):
                 print(SELECT_FAILURE)
                 continue
 
